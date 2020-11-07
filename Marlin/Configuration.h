@@ -104,7 +104,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT 3
+#define SERIAL_PORT 0
 
 /**
  * Select a secondary serial port on the board to use for communication with the host.
@@ -1767,7 +1767,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-#define REPRAP_DISCOUNT_SMART_CONTROLLER
+//#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
@@ -1907,7 +1907,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
